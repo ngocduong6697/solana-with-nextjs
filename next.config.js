@@ -16,9 +16,6 @@ const nextConfig = nextTranslate({
     API_URL: process.env.API_URL,
     COOKIE_EXPIRED_DAYS: process.env.COOKIE_EXPIRED_DAYS,
   },
-  sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
-  },
 })
 
 module.exports = nextConfig

@@ -5,7 +5,7 @@ import Router from 'next/router'
 // import url from 'url'
 import NProgress from 'nprogress'
 
-import '@app/styles/globals.scss'
+import '@app/styles/globals.css'
 
 Router.events.on('routeChangeStart', () => NProgress.start())
 Router.events.on('routeChangeComplete', () => NProgress.done())
@@ -23,8 +23,8 @@ const App = ({ Component, pageProps }: AppProps) => {
         />
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <link rel="shortcut icon" href="/images/logo.png" />
-        <title>Ngoc Init project</title>
+        <link rel="icon" href="/favicon.ico" />
+        <title>Ngoc Init Project Solana Blockchain Explorer</title>
       </Head>
       <Component {...pageProps} />
     </>
