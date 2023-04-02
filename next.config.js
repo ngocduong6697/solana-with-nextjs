@@ -1,5 +1,4 @@
 const nextTranslate = require('next-translate-plugin')
-const path = require('node:path')
 
 const nextConfig = nextTranslate({
   experimental: {
